@@ -1,0 +1,315 @@
+body {
+    background-color: #416fd3;
+    background-color: #2b52a4;
+    color: #ffffff;
+}
+
+.scrollspy {
+    background-color: #416fd3;
+    background-color: #2b52a4;
+    color: #ffffff;
+}
+
+.navbar {
+    background-image: linear-gradient(to right, #416fd3, #3b85d0);
+}
+
+.nav-bar, .nav-link {
+    color: #ECECEC;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.nav-link:hover {
+    color: #B3D9FF;
+}
+
+.navbar-nav .nav-link.active {
+    color: #96C78C;
+    color: #0d0839;
+}
+
+.navbar-nav {
+    font-size: 17.6px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+.nav-link span {
+    margin: 0px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+span.material-symbols-outlined {
+    margin-right: 5px;
+}
+
+li.nav-item span.navbar-bt-headings {
+    margin-left: 0;
+    transition-duration: 1s;
+}
+
+li.nav-item:hover span.navbar-bt-headings {
+    margin-left: 20px;
+}
+
+button.navbar-toggler {
+    border: 3px solid #fff;
+}
+
+button.navbar-toggler:hover, button.navbar-toggler:active {
+    border: 3px solid #0c1425;
+}
+
+button.navbar-toggler:hover i {
+    color: #0c1425;
+}
+
+button.navbar-toggler:focus,
+button.navbar-toggler:active {
+    box-shadow: none;
+}
+
+body > nav > div > button > i {
+    color: #ffffff;
+}
+
+header.container-fluid {
+    height: 100vh;
+}
+
+div.heading{
+    font-size: 10vw;
+    font-weight: 500;
+    font-family: "poppins", sans-serif;
+}
+
+div.heading-description {
+    font-family: 'Roboto Mono', sans-serif;
+}
+
+.about-container {
+    background-color: #2b52a4;
+    background-color: #416fd3;
+    font-family: "Poppins",sans-serif;
+}
+
+.about-2-description {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.our-skills {
+    background: rgba(153,153,153,.2);
+    border-radius: 5px;
+    /* font-weight: 600; */
+    color: #ffffff;
+    width: fit-content;
+}
+
+.about-container p {
+    font-size: 1.1rem;
+    font-family: "Poppins",sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.description-about {
+    max-width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+}
+
+.heading-about h1{
+    font-size: 4rem;
+    font-weight: 600;
+    font-family: "Poppins",sans-serif;
+    color: #ffffff;
+    margin-top: 100px;
+}
+
+.heading-about::after {
+    content: '';
+    position: absolute;
+    height: 5px;
+    width: 3rem;
+    background: #ffffff;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 5px;
+}
+
+.contact-bt button {
+    width: 160px;
+    height: 50px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px 0 rgba(0,0,0,.15);
+    transition: transform .3s;
+    background-color: #416fd3;
+    color: #fff;
+}
+
+.contact-bt button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 20px 0 rgba(0,0,0,.15);
+    background-color: #fff;
+    color: #416fd3;
+}
+
+.heading-expertise h1{
+    font-size: 4rem;
+    font-weight: 600;
+    font-family: "Poppins",sans-serif;
+    color: #ffffff;
+    margin-top: 100px;
+}
+
+.heading-expertise::after {
+    content: '';
+    position: absolute;
+    height: 5px;
+    width: 3rem;
+    background: #ffffff;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 5px;
+}
+
+.expertise-table-container {
+    width: 100%;
+    margin: 0;
+    margin-top: 50px;
+}
+
+.expertise-table-data {
+    border: 1px solid #ffffff;
+    padding: 40px 30px;
+    height: 350px;
+}
+
+.expertise-container {
+    font-family: "Poppins",sans-serif;
+}
+
+.heading-service h1 {
+    font-size: 4rem;
+    font-weight: 600;
+    font-family: "Poppins",sans-serif;
+    color: #ffffff;
+    margin-top: 100px;
+}
+
+.services-table-container {
+    width: 100%;
+    margin: 0;
+}
+
+.services-table-data {
+    border: 1px solid #ffffff;
+    padding: 40px 30px;
+    height: 350px;
+}
+
+.services-container {
+    font-family: "Poppins",sans-serif;
+    background-color: #09245c;
+}
+
+.service-box p{
+    color: #efe5e5
+}
+
+.portfolio-container {
+    font-family: "Poppins",sans-serif;
+    background-color: #132344;
+}
+
+.heading-portfolio h1 {
+    font-size: 4rem;
+    font-weight: 600;
+    font-family: "Poppins",sans-serif;
+    color: #ffffff;
+    margin-top: 100px;
+}
+
+.portfolio-card .row {
+    height: 80vh;
+}
+
+.portfolio-card {
+    background-color: #1a356a;
+    color: #fff;
+}
+
+.card-body a {
+    color: #9f9f9f;
+    text-decoration: none;
+}
+
+.portfolio-card-img {
+    height: 80vh;
+}
+
+.card-title {
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+.contact-container {
+    font-family: 'Roboto Mono', sans-serif;
+    background-color: #0d0d0d;
+    background-image: url(asset/img/coffee-bg.jpg);
+    background-size: contain;
+    background-image: url(asset/img/coffee-bg-2.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 97vh;
+}
+
+.contact-container-top {
+    height: 45%;
+}
+
+.atomaxia-email {
+    width: min-content;
+}
+
+.atomaxia-email a:hover, .telephone:hover{
+    color: #ffffff;
+    background-color: #ee21f5;
+    text-decoration: none;
+    transition-duration: 0.4s;
+}
+
+.social-media-icons a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.social-facebook:hover, .social-instagram:hover, .social-twitter:hover {
+    color: #B3D9FF;
+    background-color: #ee21f5;
+    transition-duration: 0.4s;
+}
+
+.social-media-icons a h5, .social-media-icons a, .social-media-icons {
+    width:min-content
+}
+
+.footer-bottom {
+    color: #fff;
+}
+
+#contact > div.row.footer-bottom.align-content-between > div.row.designed-by > p > a {
+    text-decoration: none;
+    color: #fff
+
+}
+
+a:active, a:focus {
+    color: #fff;
+}
